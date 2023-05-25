@@ -3,8 +3,9 @@ const BLUE_CHECKMARK_PATH = 'M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54
 function checkForCheckmarks() {
     const pathElements = document.querySelectorAll('path');
     pathElements.forEach(path => {
-        if (!path.hasAttribute('d'))
+        if (!path.hasAttribute('d')) {
             return;
+        }
         if (path.getAttribute('d') === BLUE_CHECKMARK_PATH) {
             path.closest('span').remove();
         }
