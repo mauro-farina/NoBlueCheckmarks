@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "NoBlueCheckmarks",
+    "description": "Hides blue checkmarks on Twitter. Does not remove Gold (official business) and Gray (government/organization) checkmarks. ",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": ["*://twitter.com/*"],
+            "js": [
+                "main.js"
+            ]
+        }
+    ]
+}
