@@ -1,14 +1,15 @@
 ![License Badge](https://img.shields.io/github/license/mauro-farina/NoBlueCheckmarks?style=for-the-badge)
 ![Mozilla Add-On Version](https://img.shields.io/amo/v/nobluecheckmarks?style=for-the-badge)
 
-# NoBlueCheckmarks
+# <img src="./assets/NoBlueCheckmarks.png" alt="Blue Checkmark" width="45" height="auto" style="vertical-align:bottom" /> NoBlueCheckmarks
 
-Simple browser extension that removes Blue Checkmarks <img src="./assets/blue-checkmark.png" alt="Blue Checkmark" width="25" height="auto" /> from your Twitter feed.
+
+Simple browser extension that removes Blue Checkmarks <img src="./assets/blue-checkmark.png" alt="Blue Checkmark" width="25" height="auto" style="vertical-align:bottom" /> from your Twitter feed.
 
 Blue Checkmarks no longer dictate the value or credibility of accounts: when in November 2022 Elon Musk introduced paid-verification for Twitter Blue subscribers, the blue badge lost its original meaning of 'verified user'. Since then, many people have been using the Blue Checkmark to impersonate, scam and troll users on the platform.
 Gold Checkmarks (official businesses) and Gray Checkmarks (governments and organizations) will not be removed by the extension, as they provide meaningful information to users.
 
-## Notable impersonations attempts [&#128279;](https://en.wikipedia.org/wiki/Twitter_Blue_verification_controversy#Eli_Lilly_and_Company_tweet)
+## Notable impersonations attempts [&#128279;](https://en.wikipedia.org/wiki/Twitter_Blue_verification_controversy#Impersonation_attempts)
 
 #### Eli Lilly and Company
 
