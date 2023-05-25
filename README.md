@@ -3,11 +3,16 @@
 
 # <img src="./assets/NoBlueCheckmarks.png" alt="Blue Checkmark" width="45" height="auto" style="vertical-align:bottom" /> NoBlueCheckmarks
 
-
-Simple browser extension that removes Blue Checkmarks <img src="./assets/blue-checkmark.png" alt="Blue Checkmark" width="25" height="auto" style="vertical-align:bottom" /> from your Twitter feed.
+Simple browser extension that removes Blue Checkmarks <img src="./assets/blue-checkmark.png" alt="Blue Checkmark" width="25" height="auto" style="vertical-align:bottom" /> from your Twitter feed. Download for free on [addons.mozilla.org](https://addons.mozilla.org/it/firefox/addon/nobluecheckmarks/).
 
 Blue Checkmarks no longer dictate the value or credibility of accounts: when in November 2022 Elon Musk introduced paid-verification for Twitter Blue subscribers, the blue badge lost its original meaning of 'verified user'. Since then, many people have been using the Blue Checkmark to impersonate, scam and troll users on the platform.
-Gold Checkmarks (official businesses) and Gray Checkmarks (governments and organizations) will not be removed by the extension, as they provide meaningful information to users.
+Gold Checkmarks <img src="./assets/gold-checkmark.png" alt="Gold Checkmark" width="25" height="auto" style="vertical-align:bottom" /> (official businesses) and Gray <img src="./assets/gray-checkmark.png" alt="Gray Checkmark" width="25" height="auto" style="vertical-align:bottom" /> Checkmarks (governments and organizations) will not be removed by the extension, as they provide meaningful information to users.
+
+## Future plans
+
+- Bring the extension to Chrome
+- Add a tooltip to toggle the extension
+- Add possibility to remove Gold and Gray checkmarks
 
 ## Notable impersonations attempts [&#128279;](https://en.wikipedia.org/wiki/Twitter_Blue_verification_controversy#Impersonation_attempts)
 
