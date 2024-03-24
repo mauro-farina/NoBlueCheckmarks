@@ -1,6 +1,6 @@
 ![License Badge](https://img.shields.io/github/license/mauro-farina/NoBlueCheckmarks?style=for-the-badge)
 ![Mozilla Add-On Version](https://img.shields.io/amo/v/nobluecheckmarks?style=for-the-badge)
-![Mozilla Add-on Users](https://img.shields.io/amo/users/nobluecheckmarks)
+![Mozilla Add-on Users](https://img.shields.io/amo/users/nobluecheckmarks?style=for-the-badge)
 
 # <img src="./assets/NoBlueCheckmarks.png" alt="Blue Checkmark" width="45" height="auto" style="vertical-align:bottom" /> NoBlueCheckmarks
 
