@@ -7,7 +7,8 @@ function checkForCheckmarks() {
             return;
         }
         if (path.getAttribute('d') === BLUE_CHECKMARK_PATH) {
-            path.closest('span').remove();
+            // path.closest('span').remove();
+            path.closest('span').style.display = "none";
         }
     });
 }
@@ -16,7 +17,24 @@ const observer = new MutationObserver(() => {
     checkForCheckmarks();
 });
 
-observer.observe(document.body, {
-    childList: true,
-    subtree: true,
+browser.storage.local.get('settings').then(result => {
+    const settings = result.settings || {hide_blue: true};
+    if (settings.hide_blue) {
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true,
+        });
+    }
+});
+
+browser.storage.local.onChanged.addListener(changes => {
+    const newSettings = changes.settings.newValue;
+    if (newSettings.hide_blue) {
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true,
+        });
+    } else {
+        observer.disconnect();
+    }
 });
