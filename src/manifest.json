@@ -3,7 +3,7 @@
     "version": "1.0",
     "name": "NoBlueCheckmarks",
     "description": "Hides blue checkmarks on Twitter. Does not remove Gold (official business) and Gray (government/organization) checkmarks. ",
-    "permissions": ["activeTab"],
+    "permissions": ["activeTab", "storage"],
     "content_scripts": [
         {
             "matches": ["*://twitter.com/*"],
@@ -11,5 +11,16 @@
                 "main.js"
             ]
         }
-    ]
+    ],
+    "browser_action": {
+        "browser_style": true,
+        "default_title": "NoBlueCheckmarks",
+        "default_popup": "/popup.html",
+        "default_icon": {
+            "16": "/icons/16.png",
+            "32": "/icons/32.png",
+            "48": "/icons/48.png",
+            "128": "/icons/128.png"
+        }
+    }
 }
