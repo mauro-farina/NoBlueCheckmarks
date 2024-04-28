@@ -12,8 +12,7 @@ Gold Checkmarks <img src="./assets/gold-checkmark.png" alt="Gold Checkmark" widt
 ## Future plans
 
 - Bring the extension to Chrome
-- Add a tooltip to toggle the extension
-- Add possibility to remove Gold and Gray checkmarks
+- ~~Add a tooltip to toggle the extension~~
 
 ## Notable impersonations attempts [&#128279;](https://en.wikipedia.org/wiki/Twitter_Blue_verification_controversy#Impersonation_attempts)
 
